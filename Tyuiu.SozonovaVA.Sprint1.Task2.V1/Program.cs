@@ -31,7 +31,7 @@ class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        Console.WriteLine("Расстояние в милях = " + x / 1.6f);
+        Console.WriteLine("Расстояние в милях = " + x / 1.609f);
         Console.ReadLine();
     }
 }
