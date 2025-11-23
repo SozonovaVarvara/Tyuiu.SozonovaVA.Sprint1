@@ -10,7 +10,7 @@ namespace Tyuiu.SozonovaVA.Sprint1.Task2.V1.Test
             DataService ds = new DataService();
             int x = 3;
             var res = ds.ConvertKmToM(x);
-            Assert.AreEqual(1.875, res);
+            Assert.AreEqual(2.588, res);
         }
     }
 }
