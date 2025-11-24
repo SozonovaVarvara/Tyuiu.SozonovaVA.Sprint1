@@ -8,9 +8,9 @@ namespace Tyuiu.SozonovaVA.Sprint1.Task2.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 3;
-            var res = ds.ConvertKmToM(x);
-            Assert.AreEqual(2.588, res);
+            int m = 2000;
+            var res = ds.ConvertKmToM(m);
+            Assert.AreEqual(3218, res);
         }
     }
 }
