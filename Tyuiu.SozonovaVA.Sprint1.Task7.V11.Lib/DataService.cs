@@ -5,7 +5,8 @@ namespace Tyuiu.SozonovaVA.Sprint1.Task7.V11.Lib
     {
         public double Calculate(double x, double y)
         {
-            throw new NotImplementedException();
+            double z = Math.Round(Math.Pow(Math.Log(Math.Sin(x)), x) / Math.Log(1 + Math.Pow(x, 2)) + (y - Math.Sqrt(Math.Abs(x))), 3);
+            return z;
         }
     }
 }
